@@ -1,0 +1,4 @@
+- name: ping the server
+  hosts: node
+  tasks: ping the server
+  ansibile.builtin.ping:

@@ -1,5 +1,5 @@
 - name: ping playbook    #Name of the palybook
-  hosts: web       #Host name which is mentioned in inventory file 
+  hosts: node      #Host name which is mentioned in inventory file 
   tasks: 
   - name: ping the node server #Name of the task
     ansible.builtin.ping:
